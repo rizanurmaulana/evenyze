@@ -28,6 +28,14 @@
   border-radius: 50px;
 }
 
+#articles .card {
+  min-height: 280px;
+}
+
+#articles img {
+  object-fit: cover;
+}
+
 @media (min-width: 991px) {
   .nav-link::before {
     content: "";
