@@ -15,7 +15,7 @@
   <meta property="og:description" content="Marketplace for Bootstrap Admin Dashboards">
   <meta property="og:type" content="Website">
   <meta property="og:site_name" content="Bootstrap Gallery">
-  <link rel="shortcut icon" href="./assets/images/logo/icon.png">
+  <link rel="shortcut icon" href="<?= base_url(); ?>/assets/images/logo/icon.png">
 
   <!-- Title -->
   <title>Register</title>
@@ -26,13 +26,13 @@
 		************ -->
 
   <!-- Animated css -->
-  <link rel="stylesheet" href="./assets/css/animate.css">
+  <link rel="stylesheet" href="<?= base_url(); ?>/assets/css/animate.css">
 
   <!-- Bootstrap font icons css -->
-  <link rel="stylesheet" href="./assets/fonts/bootstrap/bootstrap-icons.css">
+  <link rel="stylesheet" href="<?= base_url(); ?>/assets/fonts/bootstrap/bootstrap-icons.css">
 
   <!-- Main css -->
-  <link rel="stylesheet" href="./assets/css/main.min.css">
+  <link rel="stylesheet" href="<?= base_url(); ?>/assets/css/main.min.css">
 
 
 </head>
@@ -57,10 +57,10 @@
     <nav class="navbar navbar-expand-lg fixed-top border-bottom bg-white py-2">
       <div class="container-fluid px-3 px-lg-5">
         <a class="navbar-brand me-auto text-black" href="#">
-          <img src="./assets/images/logo/icon.png" alt="logo evenyze" style="height: 30px;">
+          <img src="<?= base_url(); ?>/assets/images/logo/icon.png" alt="logo evenyze" style="height: 30px;">
           evenyze
         </a>
-        <a href="/" class="btn btn-outline-light"><i class="bi bi-arrow-left"></i> Back</a>
+        <a href="/" class="btn"><i class="bi bi-box-arrow-in-left"></i> Back</a>
       </div>
     </nav>
   </header>
@@ -73,7 +73,7 @@
         <!--------------------------- Left Box ----------------------------->
         <div class="col-lg-6 rounded d-lg-flex justify-content-center align-items-center flex-column p-3 bg-primary d-none">
           <div class="featured-image mb-3">
-            <img src="./assets/images/register-page.svg" class="img-fluid" style="min-width: 300px;">
+            <img src="<?= base_url(); ?>/assets/images/register-page.svg" class="img-fluid" style="min-width: 300px;">
           </div>
           <h5 class="text-white fs-2 text-center">Join our vibrant event community!</h5>
           <small class="text-white text-wrap text-center mb-3">Sign up now to unlock a world of possibilities in event planning. Create stunning occasions, connect with top vendors, and access exclusive features to elevate your events to the next level.</small>
@@ -109,8 +109,8 @@
                   <label for="inputRole" class="form-label text-black">What's your role</label>
                   <select class="form-select" name="role" aria-label="selectRole" id="inputRole">
                     <option selected disabled value="">Select type</option>
-                    <option value="user">User</option>
-                    <option value="organizer">Organizer</option>
+                    <option value="User">User</option>
+                    <option value="Organizer">Organizer</option>
                   </select>
                 </div>
                 <div class="mb-3">
@@ -140,17 +140,17 @@
 			************ Required JavaScript Files *************
 		************* -->
   <!-- Required jQuery first, then Bootstrap Bundle JS -->
-  <script src="./assets/js/jquery.min.js"></script>
-  <script src="./assets/js/bootstrap.bundle.min.js"></script>
-  <script src="./assets/js/modernizr.js"></script>
-  <script src="./assets/js/moment.js"></script>
+  <script src="<?= base_url(); ?>/assets/js/jquery.min.js"></script>
+  <script src="<?= base_url(); ?>/assets/js/bootstrap.bundle.min.js"></script>
+  <script src="<?= base_url(); ?>/assets/js/modernizr.js"></script>
+  <script src="<?= base_url(); ?>/assets/js/moment.js"></script>
 
   <!-- *************
 			************ Vendor Js Files *************
 		************* -->
 
   <!-- Main Js Required -->
-  <script src="./assets/js/main.js"></script>
+  <script src="<?= base_url(); ?>/assets/js/main.js"></script>
 
 </body>
 

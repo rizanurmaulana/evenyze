@@ -1,84 +1,73 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Meta -->
+    <meta name="description" content="Best Bootstrap Admin Dashboards">
+    <meta name="author" content="Bootstrap Gallery" />
+    <link rel="canonical" href="https://www.bootstrap.gallery/">
+    <meta property="og:url" content="https://www.bootstrap.gallery">
+    <meta property="og:title" content="Admin Templates - Dashboard Templates | Bootstrap Gallery">
+    <meta property="og:description" content="Marketplace for Bootstrap Admin Dashboards">
+    <meta property="og:type" content="Website">
+    <meta property="og:site_name" content="Bootstrap Gallery">
+    <link rel="shortcut icon" href="<?=base_url()?>/assets/images/favicon.svg">
+
+    <!-- Title -->
     <title><?= lang('Errors.pageNotFound') ?></title>
 
-    <style>
-        div.logo {
-            height: 200px;
-            width: 155px;
-            display: inline-block;
-            opacity: 0.08;
-            position: absolute;
-            top: 2rem;
-            left: 50%;
-            margin-left: -73px;
-        }
-        body {
-            height: 100%;
-            background: #fafafa;
-            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-            color: #777;
-            font-weight: 300;
-        }
-        h1 {
-            font-weight: lighter;
-            letter-spacing: normal;
-            font-size: 3rem;
-            margin-top: 0;
-            margin-bottom: 0;
-            color: #222;
-        }
-        .wrap {
-            max-width: 1024px;
-            margin: 5rem auto;
-            padding: 2rem;
-            background: #fff;
-            text-align: center;
-            border: 1px solid #efefef;
-            border-radius: 0.5rem;
-            position: relative;
-        }
-        pre {
-            white-space: normal;
-            margin-top: 1.5rem;
-        }
-        code {
-            background: #fafafa;
-            border: 1px solid #efefef;
-            padding: 0.5rem 1rem;
-            border-radius: 5px;
-            display: block;
-        }
-        p {
-            margin-top: 1.5rem;
-        }
-        .footer {
-            margin-top: 2rem;
-            border-top: 1px solid #efefef;
-            padding: 1em 2em 0 2em;
-            font-size: 85%;
-            color: #999;
-        }
-        a:active,
-        a:link,
-        a:visited {
-            color: #dd4814;
-        }
-    </style>
-</head>
-<body>
-    <div class="wrap">
-        <h1>404</h1>
+    <!-- *************
+			************ Common Css Files *************
+		************ -->
 
-        <p>
-            <?php if (ENVIRONMENT !== 'production') : ?>
-                <?= nl2br(esc($message)) ?>
-            <?php else : ?>
-                <?= lang('Errors.sorryCannotFind') ?>
-            <?php endif; ?>
-        </p>
+    <!-- Animated css -->
+    <link rel="stylesheet" href="<?=base_url()?>/assets/css/animate.css">
+
+    <!-- Bootstrap font icons css -->
+    <link rel="stylesheet" href="<?=base_url()?>/assets/fonts/bootstrap/bootstrap-icons.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="<?=base_url()?>/assets/css/main.min.css">
+
+    <!-- Particles CSS -->
+    <link rel="stylesheet" href="<?=base_url()?>/assets/vendor/particles/particles.css">
+
+</head>
+
+<body class="error-page">
+
+    <div id="particles-js"></div>
+    <div class="countdown-bg"></div>
+
+    <div class="error-screen">
+        <h1>404</h1>
+        <h5>We're sorry but it looks<br />like that page doesn't exist anymore.</h5>
+        <a href="/dashboard" class="btn btn-outline-white ">Go back to Dashboard</a>
     </div>
+
+    <!--**************************
+			**************************
+				**************************
+							Required JavaScript Files
+				**************************
+			**************************
+		**************************-->
+    <!-- Required jQuery first, then Bootstrap Bundle JS -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/moment.js"></script>
+
+    <!-- *************
+			************ Vendor Js Files *************
+		************* -->
+    <!-- Particles JS -->
+    <script src="assets/vendor/particles/particles.min.js"></script>
+    <script src="assets/vendor/particles/particles-custom.js"></script>
+
 </body>
+
 </html>

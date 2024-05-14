@@ -24,15 +24,16 @@ class Login extends BaseController
       $verify_pass = password_verify($password, $pass);
       if ($verify_pass) {
         $ses_data = [
-          'id'       => $data['id'],
-          'name'     => $data['name'],
-          'email'    => $data['email'],
-          'logged_in'=> TRUE
+          'id'        => $data['id'],
+          'name'      => $data['name'],
+          'email'     => $data['email'],
+          'role'      => $data['role'],
+          'logged_in' => TRUE
         ];
         $session->set($ses_data);
         return redirect()->to('/dashboard');
       } else {
-        $session->setFlashdata('msg', $password . $pass . 'Wrong Password');
+        $session->setFlashdata('msg', 'Wrong Password');
         return redirect()->to('/login');
       }
     } else {
@@ -45,6 +46,6 @@ class Login extends BaseController
   {
     $session = session();
     $session->destroy();
-    return redirect()->to('/login');
+    return redirect()->to('/');
   }
 }

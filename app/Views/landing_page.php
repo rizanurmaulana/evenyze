@@ -10,16 +10,16 @@
   <title>Evenyze</title>
 
   <!-- Icon tab -->
-  <link rel="shortcut icon" href="./assets/images/logo/icon.png">
+  <link rel="shortcut icon" href="<?= base_url(); ?>/assets/images/logo/icon.png">
 
   <!-- Main css -->
-  <link rel="stylesheet" href="./assets/css/main.min.css">
+  <link rel="stylesheet" href="<?= base_url(); ?>/assets/css/main.min.css">
 
   <!-- Bootstrap font icons css -->
-  <link rel="stylesheet" href="./assets/fonts/bootstrap/bootstrap-icons.css">
+  <link rel="stylesheet" href="<?= base_url(); ?>/assets/fonts/bootstrap/bootstrap-icons.css">
 
   <!-- Style css -->
-  <link rel="stylesheet" href="./assets/css/my_style.css">
+  <link rel="stylesheet" href="<?= base_url(); ?>/assets/css/my_style.css">
 </head>
 
 <body>
@@ -27,13 +27,13 @@
     <nav class="navbar navbar-expand-lg fixed-top border-bottom bg-white py-2">
       <div class="container-fluid px-3 px-lg-5">
         <a class="navbar-brand me-auto text-black" href="#">
-          <img src="./assets/images/logo/icon.png" alt="logo evenyze" style="height: 30px;">
+          <img src="<?= base_url(); ?>/assets/images/logo/icon.png" alt="logo evenyze" style="height: 30px;">
           evenyze
         </a>
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
             <div class="d-flex align-items-center">
-              <img src="./assets/images/logo/icon.png" alt="logo evenyze" style="height: 30px;">
+              <img src="<?= base_url(); ?>/assets/images/logo/icon.png" alt="logo evenyze" style="height: 30px;">
               <h4 class="offcanvas-title ms-2 fw-medium" id="offcanvasNavbarLabel">evenyze</h4>
             </div>
             <button type="button" class="btn-close pe-5" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -280,14 +280,14 @@
       <div class="row gap-3 justify-content-between">
         <div class="col-sm-8 col-lg-7 row gap-3">
           <a class="navbar-brand me-auto text-light" href="#">
-            <img src="./assets/images/logo/icon.png" alt="logo evenyze" style="height: 30px;">
+            <img src="<?= base_url(); ?>/assets/images/logo/icon.png" alt="logo evenyze" style="height: 30px;">
             evenyze
           </a>
           <p class="text-light col-lg-8">Organizing events just got easier with our comprehensive suite of tools designed to streamline every aspect of event planning.</p>
-          <div class="d-flex gap-2 align-items-center">
-            <a class="bg-primary p-2 d-inline-flex rounded-circle text-bg-primary" href="#"><i class="fa-brands fa-facebook"></i></a>
-            <a class="bg-primary p-2 d-inline-flex rounded-circle text-bg-primary" href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a class="bg-primary p-2 d-inline-flex rounded-circle text-bg-primary" href="#"><i class="fa-brands fa-youtube"></i></a>
+          <div class="d-flex gap-2 text-center">
+            <a class="btn btn-primary p-2 d-inline-flex rounded-circle" href="#"><i class="bi bi-facebook"></i></a>
+            <a class="btn btn-primary p-2 d-inline-flex rounded-circle" href="#"><i class="bi bi-instagram"></i></a>
+            <a class="btn btn-primary p-2 d-inline-flex rounded-circle" href="#"><i class="bi bi-youtube"></i></a>
           </div>
         </div>
         <div class="col-sm-4 col-lg-2">
@@ -329,13 +329,13 @@
 			************ Required JavaScript Files *************
 		************* -->
   <!-- Required jQuery first, then Bootstrap Bundle JS -->
-  <script src="./assets/js/jquery.min.js"></script>
-  <script src="./assets/js/bootstrap.bundle.min.js"></script>
-  <script src="./assets/js/modernizr.js"></script>
-  <script src="./assets/js/moment.js"></script>
+  <script src="<?= base_url(); ?>/assets/js/jquery.min.js"></script>
+  <script src="<?= base_url(); ?>/assets/js/bootstrap.bundle.min.js"></script>
+  <script src="<?= base_url(); ?>/assets/js/modernizr.js"></script>
+  <script src="<?= base_url(); ?>/assets/js/moment.js"></script>
 
   <!-- Main Js Required -->
-  <script src="./assets/js/main.js"></script>
+  <script src="<?= base_url(); ?>/assets/js/main.js"></script>
 
 </body>
 

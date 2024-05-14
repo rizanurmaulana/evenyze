@@ -9,7 +9,7 @@
       <div class="col-12">
         <div class="card">
           <div class="card-body">
-            Welcome Page
+            Account Setting Page
           </div>
         </div>
       </div>
