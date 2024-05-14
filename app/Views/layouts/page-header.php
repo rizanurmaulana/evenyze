@@ -1,6 +1,6 @@
 <div class="page-header">
 
-  <div class="toggle-sidebar" id="toggle-sidebar"><i class="bi bi-list"></i></div>
+  <div class="toggle-sidebar me-3" id="toggle-sidebar"><i class="bi bi-list"></i></div>
 
   <!-- Welcome start -->
   <div class="welcome-note">

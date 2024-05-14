@@ -56,6 +56,13 @@
 		************* -->
   <?= $this->include('layouts/footer'); ?>
 
+  <?php
+  $currentUrl = current_url();
+  if (strpos($currentUrl, 'analytics') !== false) {
+    echo $this->include('layouts/apex-chart');
+  }
+  ?>
+
 </body>
 
 </html>
