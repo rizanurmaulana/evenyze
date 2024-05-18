@@ -4,7 +4,7 @@
 
   <!-- Welcome start -->
   <div class="welcome-note">
-    Welcome, <span><?= session('name'); ?></span>
+    Welcome, <span><?= session('nama'); ?></span>
   </div>
   <!-- Welcome end -->
 
@@ -16,7 +16,7 @@
         <a href="#" id="userSettings" class="user-settings" data-toggle="dropdown" aria-haspopup="true">
           <span class="d-none d-md-block me-3"><?= session('role'); ?></span>
           <span class="avatar">
-            <img src="<?= base_url(); ?>/assets/images/user-default.jpg" alt="Admin Templates">
+            <img src="<?= base_url(); ?>/assets/images/user-default.jpg" alt="User Profile">
           </span>
         </a>
         <div class="dropdown-menu dropdown-menu-end" aria-labelledby="userSettings">

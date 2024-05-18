@@ -95,11 +95,11 @@
               <div class="alert alert-danger"><?= session()->getFlashdata('msg') ?></div>
             <?php endif; ?>
             <div class="mb-3">
-              <label for="inputEmail" class="form-label text-black">Email</label>
+              <label for="inputEmail" class="form-label">Email</label>
               <input type="text" name="email" class="form-control" id="inputEmail">
             </div>
             <div class="mb-3">
-              <label for="inputPassword" class="form-label text-black">Password</label>
+              <label for="inputPassword" class="form-label">Password</label>
               <input type="password" name="password" class="form-control" id="inputPassword">
             </div>
             <!-- <div class="input-group mb-5 d-flex justify-content-between">

@@ -20,7 +20,7 @@ class Register extends BaseController
     helper(['form']);
     //set rules validation form
     $rules = [
-      'name'          => 'required|min_length[3]|max_length[20]',
+      'nama'          => 'required|min_length[3]|max_length[20]',
       'email'         => 'required|min_length[6]|max_length[50]|valid_email|is_unique[user.email]',
       'password'      => 'required|min_length[6]|max_length[200]',
       'confirmPassword'  => 'matches[password]'
@@ -29,9 +29,9 @@ class Register extends BaseController
     if ($this->validate($rules)) {
       $model = new UserModel();
       $data = [
-        'name'     => $this->request->getVar('name'),
+        'nama'     => $this->request->getVar('nama'),
         'email'    => $this->request->getVar('email'),
-        'phone'    => $this->request->getVar('phone'),
+        'no_handphone'    => $this->request->getVar('no_handphone'),
         'role'     => $this->request->getVar('role'),
         'password' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT)
       ];

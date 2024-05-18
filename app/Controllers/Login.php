@@ -25,7 +25,7 @@ class Login extends BaseController
       if ($verify_pass) {
         $ses_data = [
           'id'        => $data['id'],
-          'name'      => $data['name'],
+          'nama'      => $data['nama'],
           'email'     => $data['email'],
           'role'      => $data['role'],
           'logged_in' => TRUE

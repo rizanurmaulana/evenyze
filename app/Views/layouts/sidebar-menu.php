@@ -26,10 +26,13 @@
         <div class="sidebar-submenu">
           <ul>
             <li>
-              <a href="events">Events</a>
+              <a href="events">Event</a>
             </li>
             <li>
-              <a href="create">Add Event</a>
+              <a href="create">Buat Event</a>
+            </li>
+            <li>
+              <a href="list-event">List Event</a>
             </li>
           </ul>
         </div>

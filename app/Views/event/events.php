@@ -15,7 +15,7 @@
             <!-- Row start -->
             <div class="row">
               <div class="col-lg-4 col-sm-6 col-12">
-                <a href="/dashboard">
+                <a href="/details">
                   <div class="card position-relative shadow">
                     <span class="badge rounded shade-primary position-absolute top-0 end-0 px-3 py-2 m-2">Concert</span>
                     <img src="assets/images/arise-cloudy.jpg" class="card-img-top" alt="Image event">

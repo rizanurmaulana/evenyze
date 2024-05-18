@@ -23,6 +23,9 @@ $routes->get('reports', 'Dashboard::reports');
 // event
 $routes->get('events', 'Event::events');
 $routes->get('create', 'Event::create');
+$routes->get('details', 'Event::details');
+$routes->get('list-event', 'Event::list_event');
+$routes->get('event/delete/(:num)', 'Event::delete/$1');
 
 // account
 $routes->get('profile', 'Account::profile');

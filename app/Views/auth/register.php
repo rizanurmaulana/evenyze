@@ -92,33 +92,33 @@
             <div class="d-flex gap-3">
               <div class="col-6">
                 <div class="mb-3">
-                  <label for="inputName" class="form-label text-black">Nama Lengkap</label>
-                  <input type="text" name="name" class="form-control" id="inputName">
+                  <label for="inputName" class="form-label">Nama Lengkap <span class="text-red">*</span></label>
+                  <input type="text" name="nama" class="form-control" id="inputName">
                 </div>
                 <div class="mb-3">
-                  <label for="inputEmail" class="form-label text-black">Email</label>
+                  <label for="inputEmail" class="form-label">Email <span class="text-red">*</span></label>
                   <input type="email" name="email" class="form-control" id="inputEmail">
                 </div>
                 <div class="mb-3">
-                  <label for="inputPhone" class="form-label text-black">Phone</label>
-                  <input type="tel" name="phone" class="form-control" id="inputPhone">
+                  <label for="inputPhone" class="form-label">No. Hp <span class="text-red">*</span></label>
+                  <input type="tel" name="no_handphone" class="form-control" id="inputPhone">
                 </div>
               </div>
               <div class="col-6">
                 <div class="mb-3">
-                  <label for="inputRole" class="form-label text-black">What's your role</label>
+                  <label for="inputRole" class="form-label">Masuk Sebagai <span class="text-red">*</span></label>
                   <select class="form-select" name="role" aria-label="selectRole" id="inputRole">
-                    <option selected disabled value="">Select type</option>
+                    <option selected disabled value="">Pilih tipe</option>
                     <option value="User">User</option>
                     <option value="Organizer">Organizer</option>
                   </select>
                 </div>
                 <div class="mb-3">
-                  <label for="inputPassword" class="form-label text-black">Password</label>
+                  <label for="inputPassword" class="form-label">Password <span class="text-red">*</span></label>
                   <input type="password" name="password" class="form-control" id="inputPassword">
                 </div>
                 <div class="mb-3">
-                  <label for="confirmPassword" class="form-label text-black">Confirm Password</label>
+                  <label for="confirmPassword" class="form-label">Konfirmasi Password <span class="text-red">*</span></label>
                   <input type="password" name="confirmPassword" class="form-control" id="confirmPassword">
                 </div>
               </div>

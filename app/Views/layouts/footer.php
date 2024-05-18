@@ -12,5 +12,8 @@
 <script src="<?= base_url(); ?>/assets/vendor/overlay-scroll/jquery.overlayScrollbars.min.js"></script>
 <script src="<?= base_url(); ?>/assets/vendor/overlay-scroll/custom-scrollbar.js"></script>
 
+<!-- Dropzone JS -->
+<script src="assets/vendor/dropzone/dropzone.min.js"></script>
+
 <!-- Main Js Required -->
 <script src="<?= base_url(); ?>/assets/js/main.js"></script>
